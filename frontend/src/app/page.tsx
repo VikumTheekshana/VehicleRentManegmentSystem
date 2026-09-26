@@ -100,10 +100,11 @@ export default function LandingPage() {
             </a>
 
             <button
-              onClick={() => handleQuickLogin('admin@vms.com', 'Admin@12345', 'SUPER_ADMIN')}
+              onClick={() => router.push('/login')}
               className="text-xs font-medium px-4 py-2 rounded-lg bg-blue-600 hover:bg-blue-500 text-white transition shadow-lg shadow-blue-600/20 flex items-center space-x-1.5"
             >
-              <span>Admin Portal</span>
+              <Lock className="w-3.5 h-3.5" />
+              <span>Sign In / Portal</span>
               <ArrowRight className="w-3.5 h-3.5" />
             </button>
           </div>
@@ -181,6 +182,17 @@ export default function LandingPage() {
                 </div>
               </button>
             ))}
+          </div>
+
+          <div className="mt-4 pt-3 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs">
+            <span className="text-slate-400">Want to enter custom credentials or register a new customer profile?</span>
+            <button
+              onClick={() => router.push('/login')}
+              className="px-3.5 py-1.5 rounded-lg bg-blue-600/20 hover:bg-blue-600/30 border border-blue-500/30 text-blue-300 font-semibold transition flex items-center space-x-1.5 shadow-sm"
+            >
+              <Lock className="w-3.5 h-3.5 text-blue-400" />
+              <span>Open Secure Login & Registration Pad →</span>
+            </button>
           </div>
         </div>
 

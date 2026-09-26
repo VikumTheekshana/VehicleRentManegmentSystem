@@ -126,16 +126,21 @@ graph TD
 
 ## 📸 Interface Showcase Gallery
 
-<div align="center">
+### 1. Secure Authentication & Registration Portal
+*Interactive sign-in and registration pad featuring AES-256-GCM encrypted PII fields and 1-click credential fast-pass for testing.*
 
-### 1. Public Fleet Landing & 1-Click Role Switcher
+[![00 Login Portal](docs/screenshots/00_login_portal.png)](docs/screenshots/00_login_portal.png)
+
+<br/>
+
+### 2. Public Fleet Landing & 1-Click Role Switcher
 *Glassmorphic luxury fleet catalog with real-time availability filters, dynamic vehicle specifications, and instant role credentials.*
 
 [![01 Landing Hero](docs/screenshots/01_landing_hero.png)](docs/screenshots/01_landing_hero.png)
 
 <br/>
 
-### 2. Executive Fleet Command Center
+### 3. Executive Fleet Command Center
 *Comprehensive KPI analytics, revenue statistics, fleet utilization ratios, active alerts, and immediate sub-system navigation.*
 
 [![02 Executive Dashboard](docs/screenshots/02_executive_dashboard.png)](docs/screenshots/02_executive_dashboard.png)

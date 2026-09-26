@@ -1,7 +1,7 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
-import PDFDocument from 'pdfkit';
+const PDFDocument = require('pdfkit');
 import { Reservation, ReservationDocument } from '../reservations/reservation.schema';
 import { Inspection, InspectionDocument } from '../inspections/inspection.schema';
 import { Vehicle, VehicleDocument } from '../fleet/vehicle.schema';
