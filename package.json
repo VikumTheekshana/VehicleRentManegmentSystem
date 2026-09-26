@@ -1,0 +1,27 @@
+{
+  "name": "vehicle-rental-fleet-management-system",
+  "version": "1.0.0",
+  "description": "Enterprise-Grade, 100% Secure Vehicle Rental & Fleet Management System (VMS)",
+  "private": true,
+  "scripts": {
+    "dev:backend": "cd backend && npm run start:dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:backend": "cd backend && npm run build",
+    "build:frontend": "cd frontend && npm run build",
+    "seed": "cd backend && npm run seed",
+    "test": "cd backend && npm test"
+  },
+  "keywords": [
+    "vehicle-rental",
+    "fleet-management",
+    "nestjs",
+    "nextjs",
+    "mongodb-atlas",
+    "websockets",
+    "telemetry",
+    "zero-double-booking",
+    "geofencing"
+  ],
+  "author": "Vikum Theekshana Dahanayake <vdahanayaka02@gmail.com>",
+  "license": "MIT"
+}
